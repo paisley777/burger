@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   port: 3306,
   host: "localhost",
   user: "root",
-  password: process.env.connection.password || dbKey, 
+  password: process.env.connection.password, //change to dbKey for github 
   database: "burgers_db"
 });
 
