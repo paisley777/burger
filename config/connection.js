@@ -1,6 +1,7 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-var dbKey = require("../config/dbKey.js");
+//the line below is turned off when deploying to heroku
+//var dbKey = require("../config/dbKey.js");
 
 var connection = mysql.createConnection({
   port: 3306,
